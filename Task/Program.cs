@@ -10,6 +10,7 @@ namespace Task
     {
         static void Main(string[] args)
         {
+
             List<Computer> computersList = new List<Computer>()
             {
                 new Computer(){ CompID = 1, CompName = "Origin", CompCPU = "i7", CompCPUclockspeed = 4700, CompRamSize = 32, CompHDDsize = 1000, CompGPUvram = 12, CompPrice = 1500, CompQuantity = 15 },
